@@ -1,0 +1,140 @@
+.mui-bar-nav a {
+	text-decoration: none;
+	color: #555555;
+	font-size: .8em;
+}
+
+.mui-bar-nav>a>span {
+	text-decoration: none;
+	color: #555555;
+	font-size: .8em;
+}
+
+.mui-bar {
+	position: fixed;
+	z-index: 10;
+	right: 0;
+	left: 0;
+	height: 64px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 0;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .85);
+	box-shadow: 0 0 1px rgba(0, 0, 0, .85);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.mui-bar-nav {
+	top: 0;
+	-webkit-box-shadow: 0 1px 6px #ccc;
+	/*	box-shadow: 0 1px 6px #4CD964;
+*/
+}
+
+.my-line {
+	height: 2px;
+	background-image: linear-gradient(to right, #02aefa, #60d002, #02aefa)
+}
+
+.mui-bar-nav~.mui-content {
+	padding-top: 64px;
+}
+
+.title {
+	background: #fff;
+	overflow: hidden;
+}
+
+.box-a {
+	background: #FFFFFF;
+	width: 50%;
+	float: left;
+	text-align: center;
+	padding: .8rem 0 .8rem 0;
+	border-left: 1px solid black;
+	border-left-color: #F3F3F3;
+}
+
+.mui-slider img {
+	height: 10rem;
+	max-width: 100%;
+}
+
+.mui-text-right input {
+	padding: .1rem .2rem;
+	border: 1px solid #ff7600;
+	color: #ff7600;
+	font-size: .8em;
+}
+
+.mui-ellipsis {
+	font-size: .8em;
+}
+
+.zuo {
+	background: #58b3e2;
+	color: #FFFFFF;
+	padding: .1rem .2rem;
+	font-size: .8em;
+	margin-left: .5rem;
+}
+
+.changqu {
+	background: #ff7600;
+	color: #FFFFFF;
+	padding: .1rem .2rem;
+	font-size: .8em;
+	margin-left: .3rem;
+}
+
+.mui-h4 {
+	font: "微软雅黑";
+	font-weight: bold;
+	color: #1a1a1a;
+}
+
+.mui-h5 {
+	font-weight: bold;
+	color: #ff7600;
+}
+/**底部tab页*/
+.tabbarWrap {
+	width: 100%;
+	height: 64px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	border-top: 1px solid #ccc;
+	text-align: center;
+}
+
+.tabbarWrap .item {
+	width: 33.333333%;
+	float: left;
+	margin-top: 1rem;
+}
+
+.tabbarWrap img {
+	width: 45px;
+}
+
+.tabbarWrap span {
+	font-size: 1.5em;
+	color: #999;
+}
+
+.active span {
+	font-size: 1.5em;
+	color: #ff7600;
+}
+
+.rainbow {
+	width: 100%;
+	height: 1px;
+	background: -webkit-repeating-linear-gradient(red, yellow 10%, green 20%);
+	/* Safari 5.1 - 6.0 */
+}
