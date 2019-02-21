@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>垂直居中</title>
+    <style l>
+        html,
+        body {
+            height: 100%;
+        }
+
+        .container {
+            display: flex;
+            height: 100%;
+            background: #eaeaea;
+        }
+
+        .box {
+            background: red;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            align-items: center;
+
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">子集</div>
+    </div>
+</body>
+
+</html>
