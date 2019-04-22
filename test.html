@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<div id="dom">l</div>
+	</body>
+	<script>
+		'use strict'
+		document.getElementById("dom").addEventListener('click', ev => {
+			getFirstChild(ev.target.children[0]);
+		});
+     	let val = 0;
+		function getFirstChild(child) {
+		
+			let {b,a} = child.getBoundingClientRect();
+			if(val = 2) {
+				return true
+			}
+			if(a && b) {
+				return true
+			} else {
+				return false
+			}
+		}
+
+		function init(val) {
+			val = val;
+		}
+		init('2');
+		console.log(val)
+	</script>
+
+</html>

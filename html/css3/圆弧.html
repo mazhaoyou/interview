@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>圆弧</title>
+		<style>
+			html,
+			body {
+				width: 100%;
+				padding: 0;
+				margin: 0;
+			}
+			
+			.pure_top {
+				width: 100%;
+				height: 150px;
+				position: relative;
+				z-index: -1;
+				overflow: hidden;
+			}
+			
+			.pure_top::after {
+				content: '';
+				width: 100%;
+				height: 150px;
+				position: absolute;
+				top: 0;
+				right: 0;
+				z-index: -1;
+				border-radius: 0 0 50% 50%;
+				background: -webkit-linear-gradient(left, #FFC400, #FF9B1D);
+				/*background: rgba(255, 155, 29, 1);*/
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="pure_top">
+
+		</div>
+		<script>
+			for(var i = 0; i < 10; i++) {
+				setTimeout(function() {
+					console.log("i=" + i)
+				}, 100)
+			}
+		</script>
+
+	</body>
+
+</html>
